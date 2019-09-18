@@ -1,0 +1,4 @@
+<div class="button-group">
+    <ejs is="button" text="button1" />
+    <ejs is="button" text="button2" />
+</div>

@@ -1,6 +1,6 @@
 {
   "name": "ergate-complier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "parser.js",
   "scripts": {
@@ -13,11 +13,10 @@
   },
   "dependencies": {
     "html-parse-stringify2": "^2.0.1",
-    "html-parser": "^0.11.0",
     "pretty": "^2.0.0"
   },
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/maoyonglong/ergate-complier"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maoyonglong/ergate-complier"
   }
 }

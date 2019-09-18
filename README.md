@@ -114,20 +114,24 @@ module.exports = [
 module.exports = [
     {
         tagName: 'ejs',
-        codegen: function () {
-            // ...
-        },
-        template: {
-            // ...
+        conf: {
+            codegen: function () {
+                // ...
+            },
+            template: {
+                // ...
+            }
         }
     },
     {
         tagName: 'pug',
-        codegen: function () {
-            // ...
-        },
-        template: {
-            // ...
+        conf: {
+            codegen: function () {
+                // ...
+            },
+            template: {
+                // ...
+            }
         }
     }
 ]

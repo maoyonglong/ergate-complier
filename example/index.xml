@@ -2,3 +2,7 @@
     <ejs is="button" text="button1" />
     <ejs is="button" text="button2" />
 </div>
+<div class="archor-group">
+    <pug is="archor" text="archor1" />
+    <pug is="archor" text="archor2" />
+</div>

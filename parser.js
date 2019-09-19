@@ -73,7 +73,6 @@ Parser.prototype = {
         return pretty(this._htmlStr)
     },
     dest: function (path) {
-        const writeFile = promisify(fs.watchFile)
         fs.writeFileSync((getPathRelativeOfRoot(path)), this.getCode(), { encoding: 'utf8' })
     }
 }

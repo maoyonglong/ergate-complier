@@ -1,4 +1,5 @@
 const ejsConf = require('./ejs-conf')
+const pugConf = require('./pug-conf')
 
 module.exports = [
     {
@@ -6,8 +7,16 @@ module.exports = [
         conf: {
             ...ejsConf,
             template: {
-                button: 'example/button',
-                buttonGroup: 'example/button-group'
+                button: 'example/button'
+            }
+        }
+    },
+    {
+        tagName: 'pug',
+        conf: {
+            ...pugConf,
+            template: {
+                archor: 'example/archor'
             }
         }
     }
